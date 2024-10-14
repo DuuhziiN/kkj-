@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--<link rel="stylesheet" href="estilo.css">-->
+
+    <title>Luna Beauty e Xamuel</title>
+</head>
+
+<body>
+
+    <script type="text/javascript" src="teste.js"></script>
+    <h2>É pra quem quiser</h2>
+    <h2>Pra quem sonha, quem tem luta e quem tem fé</h2>
+    <h2>Pra quem tem empoderamento e tá de pé</h2>
+
+    <label for="nome">Marca:</label>
+    <select name="brand" id="brand"></select>
+
+    <br>
+    <label for="tipo">Tipo de produto:</label>
+    <select name="type" id="type"></select>
+
+
+    <br>
+    <label for="precoMinimo">Categoria:</label>
+    <select name="category" id="category"></select>
+
+
+    <br>
+    <label for="precoMinimo">Tags:</label>
+    <select name="tags" id="tags"></select>
+
+    <br>
+    <label for="price_greater_than">Preço minímo:</label>
+    <input type="text" name="price_greater_than" id="price_greater_than" />
+
+    <br>
+    <label for="price_less_than">Preço maxímo:</label>
+    <input type="text" name="price_less_than" id="price_less_than" />
+
+
+    <br>
+    <label for="rating_greater_than">Avaliação miníma:</label>
+    <input type="text" name="rating_greater_than" id="rating_greater_than" />
+
+    <br>
+    <label for="rating_less_than">Avaliação maxíma:</label>
+    <input type="text" name="rating_less_than" id="rating_less_than" />
+
+
+
+    <button type="button" id="send" vonclick="buscar()">buscar</button>
+
+    <div id="listagemProdutos"></div>
+
+
+
+</body>
+<style>
+    body {
+        background: #7ecddb;
+
+    }
+
+    h2 {
+        color: rgb(1, 33, 139);
+
+    }
+
+    p {
+        color: rgb(1, 33, 139);
+
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+</style>
+
+</html>
